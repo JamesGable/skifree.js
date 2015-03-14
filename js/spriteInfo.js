@@ -23,7 +23,7 @@
 			hitBehaviour: {}
 		},
 		'smallTree' : {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts : {
 				main : [ 0, 28, 30, 34 ]
 			},
@@ -33,7 +33,7 @@
 			hitBehaviour: {}
 		},
 		'tallTree' : {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts : {
 				main : [ 95, 66, 32, 64 ]
 			},
@@ -45,14 +45,14 @@
 			hitBehaviour: {}
 		},
 		'thickSnow' : {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts : {
 				main : [ 143, 53, 43, 10 ]
 			},
 			hitBehaviour: {}
 		},
 		'rock' : {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts : {
 				main : [ 30, 52, 23, 11 ]
 			},
@@ -74,14 +74,14 @@
 			hitBehaviour: {}
 		},
 		'jump' : {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts : {
 				main : [ 109, 55, 32, 8 ]
 			},
 			hitBehaviour: {}
 		},
 		'signStart' : {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts : {
 				main : [ 260, 103, 42, 27 ]
 			},
@@ -96,7 +96,7 @@
 			hitBehaviour: {}
 		},
 		'emptyChairLift': {
-			$imageFile : 'skifree-objects.png',
+			$imageFile : 'board4free-objects.png',
 			parts: {
 				main : [ 92, 136, 26, 30 ]
 			},

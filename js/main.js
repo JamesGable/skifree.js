@@ -20,9 +20,9 @@ var InfoBox = require('./lib/infoBox');
 var Game = require('./lib/game');
 
 // Local variables for starting the game
-var mainCanvas = document.getElementById('skifree-canvas');
+var mainCanvas = document.getElementById('board4free-canvas');
 var dContext = mainCanvas.getContext('2d');
-var imageSources = [ 'sprite-characters.png', 'skifree-objects.png' ];
+var imageSources = [ 'sprite-characters.png', 'board4free-objects.png' ];
 var global = this;
 var infoBoxControls = 'Use the mouse or WASD to control the player';
 if (isMobileDevice()) infoBoxControls = 'Tap or drag on the piste to control the player';
@@ -142,12 +142,13 @@ function startNeverEndingGame (images) {
 
 	infoBox = new InfoBox({
 		initialLines : [
-			'SkiFree.js',
+			'Board4free.js',
 			infoBoxControls,
 			'Travelled 0m',
 			'High Score: ' + highScore,
 			'Skiers left: ' + livesLeft,
-			'Created by Dan Hough (@basicallydan)'
+			'Created by Dan Hough (@basicallydan) Modified by (@JamesGable)'
+
 		],
 		position: {
 			top: 15,
@@ -179,12 +180,12 @@ function startNeverEndingGame (images) {
 		distanceTravelledInMetres = parseFloat(player.getPixelsTravelledDownMountain() / pixelsPerMetre).toFixed(1);
 		if (!game.isPaused()) {
 			infoBox.setLines([
-				'SkiFree.js',
+				'Board4free.js',
 				infoBoxControls,
 				'Travelled ' + distanceTravelledInMetres + 'm',
 				'Skiers left: ' + livesLeft,
 				'High Score: ' + highScore,
-				'Created by Dan Hough (@basicallydan)',
+				'Created by Dan Hough (@basicallydan) Modified by (@JamesGable)',
 				'Current Speed: ' + player.getSpeed()/*,
 				'Skier Map Position: ' + player.mapPosition[0].toFixed(1) + ', ' + player.mapPosition[1].toFixed(1),
 				'Mouse Map Position: ' + mouseMapPosition[0].toFixed(1) + ', ' + mouseMapPosition[1].toFixed(1)*/
