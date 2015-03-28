@@ -146,7 +146,7 @@ function startNeverEndingGame (images) {
 			infoBoxControls,
 			'Travelled 0m',
 			'High Score: ' + highScore,
-			'Skiers left: ' + livesLeft,
+			'Players Left: ' + livesLeft,
 			'Created by Dan Hough (@basicallydan) Modified by (@JamesGable)'
 
 		],
@@ -183,7 +183,7 @@ function startNeverEndingGame (images) {
 				'Board4free.js',
 				infoBoxControls,
 				'Travelled ' + distanceTravelledInMetres + 'm',
-				'Skiers left: ' + livesLeft,
+				'Players Left: ' + livesLeft,
 				'High Score: ' + highScore,
 				'Created by Dan Hough (@basicallydan) Modified by (@JamesGable)',
 				'Current Speed: ' + player.getSpeed()/*,
