@@ -1,13 +1,13 @@
 # Skifree.js
 
-This is a **work in progress** JavaScript port of the popular 1991 PC game [SkiFree](http://en.wikipedia.org/wiki/Skifree) by [Chris Pirih](http://ski.ihoc.net/).
+This is a **work in progress** modification of the JavaScript port of the popular 1991 PC game [SkiFree](http://en.wikipedia.org/wiki/Skifree) by [Chris Pirih](http://ski.ihoc.net/).
 
-I just started work this Christmas 2012 so I've not done a whole lot yet.
+I just started work this 3/14/15 so I've not done a whole lot yet.
 
 [**Play this right now if you want to**](http://basicallydan.github.com/skifree.js) (opens a demo page).
 
 ## Features so far:
-
+* Being a snowboarder instead of a boring old skier.
 * Skiing down a never-ending skislope with randomly-generated trees which do not have transparent backgrounds
 * Collision detection with trees - and the appropriate reaction
 * Turning left and right
@@ -30,7 +30,7 @@ This is what I'm gonna do, probably in this order. Who the hell knows. There are
 
 Some features which weren't in the original which I'd like to give a go:
 
-* Being a snowboarder instead of a boring old skier
+
 * Tricks, or something?
 * Multiplayer (ooooo wouldn't that be fun?!)
 
