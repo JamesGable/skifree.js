@@ -1,14 +1,13 @@
-# Skifree.js
+# Board4Free.js
 
+I just started work this 3/14/15 and I've not done a whole lot yet.
 This is a **work in progress** modification of the JavaScript port of the popular 1991 PC game [SkiFree](http://en.wikipedia.org/wiki/Skifree) by [Chris Pirih](http://ski.ihoc.net/).
 
-I just started work this 3/14/15 so I've not done a whole lot yet.
-
-[**Play this right now if you want to**](http://basicallydan.github.com/skifree.js) (opens a demo page).
+[**You can play skifree.js by Dan Hough here**](http://basicallydan.github.com/skifree.js) (opens a demo page).
 
 ## Features so far:
 * Being a snowboarder instead of a boring old skier.
-* Skiing down a never-ending skislope with randomly-generated trees which do not have transparent backgrounds
+* Skiing down a never-ending ski slope with randomly-generated trees which do not have transparent backgrounds
 * Collision detection with trees - and the appropriate reaction
 * Turning left and right
 * Stopping
@@ -19,24 +18,43 @@ I just started work this 3/14/15 so I've not done a whole lot yet.
 * Rainbow jump platforms & jumping - though a couple of improvements could be made
 * LocalStorage high-score (thanks, [@ddoolin](https://github.com/ddoolin)!)
 * Custom-sized Hitboxes
-* Big trees & crashing into them both whilst skiing and jumping
+* Big trees & crashing into them both whilst boarding and jumping
 
 ## So, what's left to do?
 
-This is what I'm gonna do, probably in this order. Who the hell knows. There are other features to the original game but I'm not going to add them to the list until I've gotten through this one.
 
-* Rocks
-* Snowboarders
+* Stumps
+* Dog
+* Ski Lift
+* Burning Tree
+* Frozen Skier
+* Killing Snow Monster
+* Slalom Course
+
 
 Some features which weren't in the original which I'd like to give a go:
 
 
-* Tricks, or something?
+* Ability to choose snowboarder or skier.
 * Multiplayer (ooooo wouldn't that be fun?!)
 
-## F*ck this, let me play the game goddammit
+## Let me play the game goddammit!
 
-* Open up index.html in Chrome, or maybe even Firefox - I haven't tested it in anything but Chrome and Mobile Safari yet, and I probably won't I'm afraid
+Game Controls:
+================
+Use the mouse, arrow keys or WASD to control the player.
+
+F 			Player Speed Boost
+T 			Player Attempt Trick While Jumping
+M			Spawn Snow Monster
+B 			Spawn Enemy Snowboarder
+Space		Reset Game
+
+MOBILE SUPPORT** - Use your finger to direct the snowboarder. Also try double-tap ;)
+
+
+
+* Open up index.html in Chrome, or maybe even Firefox - I haven't tested it in anything but Chrome, and I probably won't I'm afraid
 * Go.
 
 ## I like to run Unit tests before I do ANYTHING.
@@ -46,7 +64,7 @@ Some features which weren't in the original which I'd like to give a go:
 
 ## This is pretty frickin' sweet but it's clearly not finished. I can totally improve it. Let me improve it, dammit.
 
-* We are #seekingcontributors
+* Dan Hough is #seekingcontributors
 * Make a pull request with your awesome additions.
 * Maybe raise an issue?
 
