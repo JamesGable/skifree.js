@@ -44,11 +44,11 @@ Game Controls:
 ================
 Use the mouse, arrow keys or WASD to control the player.
 
-F 			Player Speed Boost
-T 			Player Attempt Trick While Jumping
-M			Spawn Snow Monster
-B 			Spawn Enemy Snowboarder
-Space		Reset Game
+* F - Player Speed Boost
+* T - Player Attempt Trick While Jumping
+* M - Spawn Snow Monster
+* B - Spawn Enemy Snowboarder
+* Space - Reset Game
 
 MOBILE SUPPORT** - Use your finger to direct the snowboarder. Also try double-tap ;)
 
